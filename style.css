@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url("fonts/PTSerif-Regular.ttf");
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(236, 214, 187);
+}
+  
+.footer-link {
+    color: rgb(39, 11, 164);
+    transition: color .2s;
+}
+  
+.link:hover {
+    color: rgb(113, 180, 246);
+}
+  
+.header {
+    padding: 20px;
+    border-bottom: 1px solid rgb(48, 73, 216);
+    text-align: center;
+    font-family: 'PT Serif';
+}
+  
+.header-link {
+    margin: 0 10px;
+    font-family: 'PT Serif';
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+  
+.aside {
+    width: 300px;
+    flex: 0;
+}
+  
+.section-info {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.img-wrapper {
+    background-color: rgb(186, 201, 202, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 960px;
+    height: 706px;
+    transition-property: width, height;
+}
+  
+.img {
+    border: 1px solid gray;
+    display: block;
+    align-items: center;
+}
+
+.img-wrapper:hover {
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    padding: 0px;
+}
+  
+.title {
+    color: rgb(42, 2, 243);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 5px solid rgb(94, 101, 219);
+    padding-left: 10px;
+    color: rgb(106, 149, 213);
+    margin-top: 30px;
+}
+  
+.footer {
+    border-top: 1px solid rgb(169, 198, 238);
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    color: rgb(7, 86, 183);
+}
+
+.footer-header {
+    text-align: left;
+    align-self: center;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+  
+.contacts-icon {
+    margin-right: 20px;
+}
